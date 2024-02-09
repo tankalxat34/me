@@ -1,1 +1,1 @@
-My template for TypeScript React apps
+My personal website

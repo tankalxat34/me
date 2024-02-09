@@ -1,0 +1,29 @@
+@use "../../index"
+
+.btn
+  border-radius: 30px
+  font-style: normal
+  font-weight: 400
+  font-size: 18px
+  line-height: 22px
+  padding: 10px 25px
+  outline: none
+  border: none
+  cursor: pointer
+  margin: 10px
+  font-family: index.$font-family
+
+  *
+    margin: auto 0
+
+  svg
+    margin-right: 10px
+
+  &.rightIcon svg
+    margin-right: 0
+    margin-left: 10px
+
+  &.dark
+    font-family: index.$font-light
+    color: white
+    background: #0C0C0C

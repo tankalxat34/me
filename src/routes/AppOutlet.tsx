@@ -5,7 +5,9 @@ const AppOutlet = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
     </>
   );
 };
