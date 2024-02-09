@@ -1,0 +1,37 @@
+@use "./fonts"
+
+$dark-theme-bg: #020508
+$dark-theme-color: whitesmoke
+
+$light-theme-bg: #ffffff
+$light-theme-color: black
+
+$font-size: 20px
+$font-family: -apple-system, BlinkMacSystemFont, Montserrat, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  margin: 0
+  font-family: $font-family
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+  background-color: $light-theme-bg
+  color: $light-theme-color
+  font-size: $font-size
+
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+
+a
+  color: $light-theme-color
+  outline: none
+  transition: all .3s
+
+.darkTheme
+  background-color: $dark-theme-bg
+  color: $dark-theme-color
